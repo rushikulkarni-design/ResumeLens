@@ -1,0 +1,57 @@
+# ==========================================
+# ResumeLens Git Ignore
+# ==========================================
+
+# ---------- Frontend dependencies ----------
+ResumeLens_Frontend/node_modules/
+
+# ---------- Frontend build/generated files ----------
+ResumeLens_Frontend/dist/
+ResumeLens_Frontend/build/
+ResumeLens_Frontend/.output/
+ResumeLens_Frontend/.wrangler/
+ResumeLens_Frontend/.resumelens/
+ResumeLens_Frontend/.vite/
+
+# ---------- Frontend environment files ----------
+ResumeLens_Frontend/.env
+ResumeLens_Frontend/.env.*
+!ResumeLens_Frontend/.env.example
+
+# ---------- Backend virtual environment ----------
+ResumeLens_Backend/venv/
+ResumeLens_Backend/.venv/
+ResumeLens_Backend/env/
+
+# ---------- Python cache ----------
+ResumeLens_Backend/__pycache__/
+ResumeLens_Backend/**/__pycache__/
+ResumeLens_Backend/*.pyc
+ResumeLens_Backend/**/*.pyc
+__pycache__/
+*.py[cod]
+
+# ---------- Backend environment ----------
+ResumeLens_Backend/.env
+ResumeLens_Backend/.env.*
+!ResumeLens_Backend/.env.example
+
+# ---------- Database files ----------
+ResumeLens_Backend/*.db
+ResumeLens_Backend/*.sqlite
+ResumeLens_Backend/*.sqlite3
+
+# ---------- Python test/cache ----------
+.pytest_cache/
+.mypy_cache/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Operating system ----------
+.DS_Store
+Thumbs.db

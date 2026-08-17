@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+pdfplumber
+plotly
+google-genai
+python-dotenv
+bcrypt==4.3.0
